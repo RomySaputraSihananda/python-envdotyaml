@@ -1,3 +1,5 @@
+import os
+
 from setuptools import setup
 
 from envdotyaml import __version__, __url__, __author_email__, __autor__, __description__, __license__, __title__ 
@@ -19,7 +21,10 @@ setup(
     packages=['envdotyaml'],
     include_package_data=True,
     python_requires=">=3.11",
-    install_requires=reader( "requirements.txt" ).split( "\x0a" ),
+    install_requires=[
+		'python-dotenv==1.0.1',
+        'PyYAML==6.0.1'
+    ],
     license=__license__,
     zip_safe=False
 )
