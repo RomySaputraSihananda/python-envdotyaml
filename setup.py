@@ -22,7 +22,6 @@ setup(
     include_package_data=True,
     python_requires=">=3.11",
     install_requires=[
-		'python-dotenv==1.0.1',
         'PyYAML==6.0.1'
     ],
     license=__license__,
