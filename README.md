@@ -1,5 +1,7 @@
 # python-envdotyaml
 
+python-envdotyaml reads the yaml syntax from the env.yaml file and can set it as an environment variable. It helps in developing applications like python-dotenv.
+
 ## Getting Started
 
 ```bash
