@@ -1,12 +1,12 @@
 # python-envdotyaml
 
-# Getting Started
+## Getting Started
 
 ```bash
 pip install python-envdotyaml
 ```
 
-# Example Usage
+## Example Usage
 
 ```python
 import os
@@ -18,7 +18,7 @@ load_envdotyaml()
 print(os.environ)
 ```
 
-# Example env.yaml
+## Example env.yaml
 
 ```yaml
 AUTH:
@@ -26,7 +26,7 @@ AUTH:
   PASSWORD: "V20wNWVXUkhWbnBrUjJ4MVduZHZQUW89Cg=="
 ```
 
-# Output
+## Output
 
 ```bash
 environ(
